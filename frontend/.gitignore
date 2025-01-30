@@ -1,0 +1,34 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore build output
+dist/
+tmp/
+out-tsc/
+
+# Ignore IDE/Editor specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore environment files (e.g., API keys)
+.env
+.env.local
+.env.*.local
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore npm/yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore Angular cache
+.cache/
+.angular/
